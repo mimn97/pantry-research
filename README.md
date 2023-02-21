@@ -2,7 +2,7 @@
 
 ## Introduction 
 
-Code Repository of the preprint "Evaluating Geographic Accessibility of Food Pantries in the U.S." (Lee et al., 2023). 
+Code Repository of "Evaluating Accessibility of Food Pantries in the U.S. at the Census Block Group Level". 
 
 ----------
 ## How to Run Jupyter Notebooks
