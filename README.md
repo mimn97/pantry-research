@@ -5,6 +5,6 @@
 Code Repository of the preprint "Evaluating Geographic Accessibility of Food Pantries in the U.S." (Lee et al., 2023). 
 
 ----------
-## Directions
+## How to Run Jupyter Notebooks
 
-Jupyter notebooks
+- Install `environment.yml`
