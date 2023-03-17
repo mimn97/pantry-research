@@ -2,7 +2,7 @@
 
 ## Introduction 
 
-Code Repository of "Evaluating Accessibility of Food Pantries in the U.S. at the Census Block Group Level". 
+Code Repository of "Analysis of Socio-economic and geographic disparity in accessibility to food pantries in the U.S.". 
 
 ----------
 ## How to Run Jupyter Notebooks
