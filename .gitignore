@@ -60,3 +60,9 @@ Temporary Items
 .apdisk
 *.csv
 *.pkl
+*.shx
+*.cpg
+*.dbf
+*.prj
+*.shp
+*.xml
