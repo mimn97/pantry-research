@@ -2,7 +2,7 @@
 
 ## Introduction 
 
-Code Repository of "Analysis of Socio-economic and geographic disparity in accessibility to food pantries in the U.S.". 
+Code Repository of "Socio-geographic Disparities in Accessibility to Food Pantries in the United States". Preprint. 2023. 
 
 ----------
 ## How to Run Jupyter Notebooks in Conda Environment
