@@ -5,9 +5,9 @@
 Code Repository of "Socio-geographic Disparities in Accessibility to Food Pantries in the United States". Preprint. 2023. 
 
 ----------
-## How to Run Jupyter Notebooks in Conda Environment
+## How to replicate results in Conda Environment
 
-- Install Anaconda. 
+- Install Anaconda. Enable pip dependency. 
 - Create a conda environment named `fp_env`. 
 
 ```conda
@@ -16,12 +16,12 @@ pip install -r requirements.txt
 conda install -c conda-forge googlemaps
 ```
 
-- Place the following five files in the `data` folder:
-    - `food_bg20_adi_st.pkl`
-    - `bg_transit_adi.csv`
-    - `ruralurbancodes2013.csv`
-    - `US_2020_ADI_Census Block Group_v3.2.csv`  
-    - `us-state-fips.csv`
+- Place the following five data files in the `data` folder:
+    - `food_bg20_adi_st.pkl` (35.1M pantry and BG pairs)
+    - `bg_transit_adi.csv` (~233K BG and pantry pairs with travel time information)
+    - `ruralurbancodes2013.csv` (US county and rural/urban codes)
+    - `US_2020_ADI_Census Block Group_v3.2.csv` (2020 ADI percentiles)
+    - `us-state-fips.csv` (All US states and their FIPS code)
 - Run `main.ipynb` to replicate the results in main body texts. 
 - Run `accessibility_regression.ipynb` to replicate the results in regression analysis. (Supplementary Table 2)
 - Run `supp_material.ipynb` to replicate the results in supplementary Information. 
