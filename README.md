@@ -8,11 +8,12 @@ Code Repository of "Socio-geographic Disparities in Accessibility to Food Pantri
 ## How to Run Jupyter Notebooks in Conda Environment
 
 - Install Anaconda. 
-- Create a conda environment named `pantry_env`. 
+- Create a conda environment named `fp_env`. 
 
 ```conda
-conda env create -f environment.yml
-conda activate pantry_env
+conda create -n fp_env python=3.8
+pip install -r requirements.txt
+conda install -c conda-forge googlemaps
 ```
 
 - Place the following five files in the `data` folder:
