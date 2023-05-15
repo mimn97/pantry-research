@@ -2,7 +2,7 @@
 
 ## Introduction 
 
-Code Repository of "Socio-geographic Disparities in Accessibility to Food Pantries in the United States". Preprint. 2023. 
+Code Repository of "Socio-geographic Disparities in Accessibility to Food Pantries in the United States". Preprint. 2023. Please note that all dataset needed for this study will be available upon request. 
 
 ----------
 ## How to replicate results in Conda Environment
