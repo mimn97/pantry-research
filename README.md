@@ -15,6 +15,10 @@ conda create -n fp_env python=3.8
 pip install -r requirements.txt
 conda install -c conda-forge googlemaps
 ```
+- After creating the virtual environment `fp_env`, run the following command to activate the environment: 
+```conda
+conda activate fp_env
+```
 
 - Place the following five data files in the `data` folder:
     - `food_bg20_adi_st.pkl` (35.1M pantry and BG pairs)
