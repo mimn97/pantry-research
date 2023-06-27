@@ -2,7 +2,7 @@
 
 ## Introduction 
 
-Code Repository of "Socio-geographic Disparities in ...." [Full title to be revealed after acceptance]. Preprint. 2023. Please note that all dataset needed for this study will be available upon request. 
+Code Repository of "Socio-geographic Disparities in ...." [Full title to be revealed after acceptance]. Preprint. 2023. Please note that all dataset needed for this study will be available upon request. Please contact minhwalee@umass.edu
 
 ----------
 ## How to replicate results in Conda Environment
@@ -21,8 +21,8 @@ conda activate fp_env
 ```
 
 - Place the following five data files in the `data` folder:
-    - `food_bg20_adi_st.pkl` (35.1M pantry and BG pairs)
-    - `bg_transit_adi.csv` (~233K BG and pantry pairs with travel time information)
+    - `fp_bg_pairs.pkl` (37.1M pantry and BG pairs)
+    - `bg_pantry_travel_time_updated.csv` (~238K BG and pantry pairs with travel time information)
     - `ruralurbancodes2013.csv` (US county and rural/urban codes)
     - `US_2020_ADI_Census Block Group_v3.2.csv` (2020 ADI percentiles)
     - `us-state-fips.csv` (All US states and their FIPS code)
@@ -32,3 +32,7 @@ conda activate fp_env
 
 
 Please note that `prepare_data.ipynb` and `compute_travel_time.ipynb` are to show how we were able to prepare our dataset for the main study. This files will take considerable amount of time and require your own API key, so please skip to `main.ipynb` to observe the results and understand insights about our study. 
+
+For Figure 1(b), Supp. Figures 4 and 5, they were created by Tableau Desktop and require you to have your own API key to access the visuals. Please contact me if you further would like to see the software. 
+
+Minhwa Lee (minhwalee@umass.edu)
